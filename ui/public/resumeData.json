@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name":"Morgan Radic",
+    "occupation":"Software Consultant",
+    "employer": "Pariveda Solutions",
+    "description":"I love creating <span>Scalable Backend Systems</span> and <span>working with AWS</span>.",
+    "image":"morgan-bahamas-portrait-cropped.jpg",
+    "bio":"I am a developer and architect with a 2+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, mainly focusing on Serverless or Microservices architecture.  Outside of developing you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "radic44morgan@gmail.com",
+    "phone": "717-654-5275",
+    "address":{
+      "city":"Arlington",
+      "state":"VA",
+      "zip": "22201"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/morgan-radic-a4b371b2/",
+        "className":"fa fa-linkedin"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Pennsylvania State University",
+        "degree":"Bachelors in Information Sciences and Technology",
+        "graduated":"April 2018",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"(Unnamed Fortune 500 Company)",
+        "title":"Software Developer Engineer",
+        "years":"September 2020 - Present",
+        "description":"Converted multiple Spring MVC applications to be entirely Serverless."
+      },
+      {
+        "company":"(Unnamed Non-Profit)",
+        "title":"Backend Developer / Architect",
+        "years":"February 2020 - September 2020",
+        "description":"Designed and developed Serverless API to accompany SPA website.  Architected full stack in AWS.",
+        "techstack": [
+          "Serverless Framework",
+          "Typescript",
+          "AWS Aurora",
+          "AWS Cloudformation"
+        ]
+      },
+      {
+        "company":"Toyota Motors",
+        "title":"Developer",
+        "years":"January 2019 - February 2020",
+        "description":"Converted multiple Spring MVC applications to be entirely Serverless."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Serverless Framework",
+        "level":"85%"
+      },
+      {
+        "name":"TypeScript",
+        "level":"70%"
+      },
+      {
+        "name":"Cloudformation",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"60%"
+      },
+      {
+        "name":"Terrafrom",
+        "level":"50%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"40%"
+      },
+      {
+        "name":"Angular",
+        "level":"35%"
+      }
+    ]
+  },
+  "blog":{
+    "blogs": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
