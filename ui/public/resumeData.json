@@ -5,7 +5,7 @@
     "employer": "Pariveda Solutions",
     "description":"I love creating <span>Scalable Backend Systems</span> and <span>working with AWS</span>.",
     "image":"morgan-bahamas-portrait-cropped.jpg",
-    "bio":"I am a developer and architect with a 2+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, mainly focusing on Serverless or Microservices architecture.  Outside of developing you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
+    "bio":"I am a developer and architect with 2+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, mainly focusing on Serverless or Microservices architecture.  Outside of my work you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "radic44morgan@gmail.com",
     "phone": "717-654-5275",
@@ -25,7 +25,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Here are some of my most proficient technologies.",
     "education":[
       {
         "school":"Pennsylvania State University",
@@ -39,7 +39,14 @@
         "company":"(Unnamed Fortune 500 Company)",
         "title":"Software Developer Engineer",
         "years":"September 2020 - Present",
-        "description":"Converted multiple Spring MVC applications to be entirely Serverless."
+        "description":"Developed Microservices backend to consume Kafka streams and distribute pertinent data.",
+        "techstack": [
+          "Spring Boot",
+          "AWS DynamoDB",
+          "AWS ECS",
+          "Docker",
+          "AWS Cloudformation"
+        ]
       },
       {
         "company":"(Unnamed Non-Profit)",
@@ -57,7 +64,14 @@
         "company":"Toyota Motors",
         "title":"Developer",
         "years":"January 2019 - February 2020",
-        "description":"Converted multiple Spring MVC applications to be entirely Serverless."
+        "description":"Converted multiple Spring MVC applications to be entirely Serverless and hosted within AWS.",
+        "techstack": [
+          "Serverless Framework",
+          "Typescript",
+          "Angular",
+          "AWS DynamoDB",
+          "Terraform"
+        ]
       }
     ],
     "skills":[

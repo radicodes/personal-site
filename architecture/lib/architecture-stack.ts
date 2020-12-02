@@ -2,7 +2,7 @@ import * as cdk from '@aws-cdk/core';
 import * as s3 from '@aws-cdk/aws-s3';
 import * as s3Deployment from '@aws-cdk/aws-s3-deployment';
 import * as route53 from '@aws-cdk/aws-route53';
-import * as cloudfront from '@aws-cdk/aws-cloudfront';
+import { CloudFrontWebDistribution } from '@aws-cdk/aws-cloudfront'
 import * as origins from '@aws-cdk/aws-cloudfront-origins';
 
 export class ArchitectureStack extends cdk.Stack {
@@ -28,8 +28,15 @@ export class ArchitectureStack extends cdk.Stack {
       }
     );   
 
-    const cloudfrontDistribution = new cloudfront.Distribution(this, 'myDist', {
-      defaultBehavior: { origin: new origins.S3Origin(staticBucket) },
+    const distribution = new CloudFrontWebDistribution(this, 'cdk-example-cfront', {
+      originConfigs: [
+        {
+          s3OriginSource: {
+            s3BucketSource: staticBucket
+          },
+          behaviors : [ {isDefaultBehavior: true}]
+        }
+      ]
     });
   }
 }

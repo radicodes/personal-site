@@ -24,6 +24,8 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@types/semver": "^7.3.4",
+    "semver": "^7.3.4",
     "source-map-support": "^0.5.16"
   }
 }
