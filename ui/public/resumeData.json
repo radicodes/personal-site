@@ -72,7 +72,7 @@
       {
         "company":"Toyota Motors",
         "years":"January 2019 - February 2020",
-        "description":"Toyota had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to save cost.  I worked on a team to rewrite one of their larger applications and develop a corresponding SPA website that interacted with the API.  We also migrated their large MySQL database to DynamoDB in order for the database to fit our new lightweight architecture. My role on the team was architecting the system in AWS and developing both the front end and the API.",
+        "description":"Toyota had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to save cost.  I worked on a team to rewrite one of their larger applications and develop a corresponding SPA website that interacted with the API.  We also migrated their large MySQL database to DynamoDB in order for the database to fit our new, lightweight architecture. My role on the team was architecting the system in AWS and developing both the front end and the API.",
         "techstack": [
           "Serverless Framework",
           "Typescript",
