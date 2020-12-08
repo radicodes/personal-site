@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-const MEDIUM_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@MorganRadic"
-
 class Blog extends Component {
   render() {
     if(this.props.data){
@@ -11,7 +9,7 @@ class Blog extends Component {
         var link = post.link;
         return <div key={title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={link} title={title} target="_blank">
+            <a href={link} title={title} target="_blank" rel="noopener noreferrer">
                <img alt={title} src={thumbnail} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
