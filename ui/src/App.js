@@ -38,21 +38,8 @@ class App extends Component {
     });
   }
 
-  getMediumArticles(){
-    
-    const MEDIUM_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@MorganRadic";
-
-    fetch(MEDIUM_URL)
-    .then(res => res.json())
-    .then(data => {
-      const posts = data.items;
-      this.setState({mediumArticles: posts});
-    });
-  }
-
   componentDidMount(){
     this.getResumeData();
-    this.getMediumArticles();
   }
 
   render() {

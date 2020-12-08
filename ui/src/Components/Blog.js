@@ -1,9 +1,33 @@
 import React, { Component } from 'react';
 
+const MEDIUM_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@MorganRadic";
+
 class Blog extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      mediumArticles: []
+    }
+  }
+
+  componentDidMount(){
+    this.getMediumArticles();
+  }
+
+  getMediumArticles(){
+
+    fetch(MEDIUM_URL)
+    .then(res => res.json())
+    .then(data => {
+      const posts = data.items;
+      this.setState({mediumArticles: posts});
+    });
+  }
+
   render() {
-    if(this.props.data){
-      var posts = this.props.data.map(function(post){
+    if(this.state.mediumArticles){
+      var posts = this.state.mediumArticles.map(function(post){
         var thumbnail = post.thumbnail;
         var title = post.title;
         var link = post.link;
