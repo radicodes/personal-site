@@ -21,6 +21,16 @@
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/morgan-radic-a4b371b2/",
         "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/radicodes",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/radic.jpg/",
+        "className":"fa fa-instagram"
       }
     ]
   },

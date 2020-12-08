@@ -6,7 +6,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Blog from './Components/Blog';
+// import Blog from './Components/Blog';
 
 class App extends Component {
 
@@ -48,7 +48,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        <Blog data={this.state.mediumArticles}/>
+        {/* <Blog data={this.state.mediumArticles}/> */}
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
