@@ -16,7 +16,8 @@ class App extends Component {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      resumeData: {},
+      mediumArticles: [{}]
     };
 
     ReactGA.initialize('UA-110570651-1');
@@ -39,8 +40,21 @@ class App extends Component {
     });
   }
 
+  getMediumArticles(){
+    
+    const MEDIUM_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@MorganRadic";
+
+    fetch(MEDIUM_URL)
+    .then(res => res.json())
+    .then(data => {
+      const posts = data.items;
+      this.setState({mediumArticles: posts});
+    });
+  }
+
   componentDidMount(){
     this.getResumeData();
+    this.getMediumArticles();
   }
 
   render() {
@@ -49,8 +63,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        <Blog data={this.state.resumeData.blog}/>
-        <Contact data={this.state.resumeData.main}/>
+        <Blog data={this.state.mediumArticles}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
     );

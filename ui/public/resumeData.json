@@ -5,7 +5,7 @@
     "employer": "Pariveda Solutions",
     "description":"I love creating <span>Scalable Backend Systems</span> and <span>working with AWS</span>.",
     "image":"morgan-bahamas-portrait-cropped.jpg",
-    "bio":"I am a developer and architect with 2+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, mainly focusing on Serverless or Microservices architecture.  Outside of my work you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
+    "bio":"I am a developer and architect with 2+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, most often utilizing a Serverless architecture.  Outside of my work you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "radic44morgan@gmail.com",
     "phone": "717-654-5275",
@@ -14,8 +14,8 @@
       "state":"VA",
       "zip": "22201"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.morganradic.cloud",
+    "resumedownload":"http://morganradic.cloud",
     "social":[
       {
         "name":"linkedin",
@@ -37,7 +37,7 @@
     "work":[
       {
         "company":"(Unnamed Fortune 500 Company)",
-        "title":"Software Developer Engineer",
+        "title":"Backend Developer",
         "years":"September 2020 - Present",
         "description":"Developed Microservices backend to consume Kafka streams and distribute pertinent data.",
         "techstack": [
@@ -50,9 +50,8 @@
       },
       {
         "company":"(Unnamed Non-Profit)",
-        "title":"Backend Developer / Architect",
         "years":"February 2020 - September 2020",
-        "description":"Designed and developed Serverless API to accompany SPA website.  Architected full stack in AWS.",
+        "description":"We worked with our client to create a light-weight SPA website that would consume data from a scalable API.  We proposed a Serverless architecture due to the fact that the traffic would be variable throughout the year and relatively light.  The speed of a Serverless API coupled with the low-costs further drove home this decision.  My role on the team was developing the API and architecting the system within AWS.",
         "techstack": [
           "Serverless Framework",
           "Typescript",
@@ -62,9 +61,8 @@
       },
       {
         "company":"Toyota Motors",
-        "title":"Developer",
         "years":"January 2019 - February 2020",
-        "description":"Converted multiple Spring MVC applications to be entirely Serverless and hosted within AWS.",
+        "description":"Toyota had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to save cost.  I worked on a team to rewrite one of their larger applications and to also create a SPA website that interacted with the API.  Along with rewriting the API to be Serverless, we also migrated their large MySQL database to DynamoDB. My role on the team was architecting the system in AWS and developing both the front end and the API.",
         "techstack": [
           "Serverless Framework",
           "Typescript",
