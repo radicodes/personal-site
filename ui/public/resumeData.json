@@ -39,7 +39,7 @@
         "company":"(Unnamed Fortune 500 Company)",
         "title":"Backend Developer",
         "years":"September 2020 - Present",
-        "description":"Developed Microservices backend to consume Kafka streams and distribute pertinent data.",
+        "description":"Our client was using Kafka to stream machine learning data to a plethora of applications.  I joined a team that was developing two Java Spring applications that would consume this data and communicate it with their customers via email and a RESTful API. On this team I was a Java developer and helped with some of the AWS architecture.",
         "techstack": [
           "Spring Boot",
           "AWS DynamoDB",
