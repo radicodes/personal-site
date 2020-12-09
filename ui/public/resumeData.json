@@ -72,7 +72,7 @@
       {
         "company":"(Unnamed Fortune 100 Automotive Manufacturer)",
         "years":"January 2019 - February 2020",
-        "description":"Our client had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to cut costs.  I worked on a team to rewrite one of their large scale APIs that provided data for mainy dealership sites.  We also developed a corresponding Angular SPA website that interacted with the API.  We also migrated their large MySQL database to DynamoDB in order for the database to fit our low-cost, highly available architecture. My role on the team was architecting the system in AWS and developing both the front end and the API.",
+        "description":"Our client had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to cut costs.  I worked on a team to rewrite one of their large scale APIs that provided data for hundreds of dealership sites.  We also developed a corresponding Angular SPA website that interacted with the API and migrated their large MySQL database to DynamoDB in order for the database to fit our low-cost, highly available architecture. My role on the team was architecting the system in AWS and developing both the front end and the API.",
         "techstack": [
           "Serverless Framework",
           "Typescript",
