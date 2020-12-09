@@ -61,7 +61,7 @@
       {
         "company":"(Unnamed Non-Profit)",
         "years":"February 2020 - September 2020",
-        "description":"We worked with our client to create a light-weight SPA website that would consume data from a scalable API.  I proposed a Serverless architecture due to the fact that the traffic would be variable throughout the year and relatively light.  The speed of a Serverless API coupled with the low-costs further drove home this decision.  My role on the team was developing the API and architecting the system within AWS.",
+        "description":"We worked with our client to create a React SPA website that would consume data from a scalable API.  I proposed a Serverless architecture due to the fact that the traffic would be variable throughout the year and relatively light.  The speed of a Serverless API coupled with the low-costs further drove home this decision.  My role on the team was developing the API and architecting the system within AWS.",
         "techstack": [
           "Serverless Framework",
           "Typescript",
@@ -70,9 +70,9 @@
         ]
       },
       {
-        "company":"Toyota Motors",
+        "company":"(Unnamed Fortune 100 Automotive Manufacturer)",
         "years":"January 2019 - February 2020",
-        "description":"Toyota had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to save cost.  I worked on a team to rewrite one of their larger applications and develop a corresponding SPA website that interacted with the API.  We also migrated their large MySQL database to DynamoDB in order for the database to fit our new, lightweight architecture. My role on the team was architecting the system in AWS and developing both the front end and the API.",
+        "description":"Our client had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to cut costs.  I worked on a team to rewrite one of their larger applications and develop a corresponding Angular SPA website that interacted with the API.  We also migrated their large MySQL database to DynamoDB in order for the database to fit our low-cost, highly available architecture. My role on the team was architecting the system in AWS and developing both the front end and the API.",
         "techstack": [
           "Serverless Framework",
           "Typescript",
