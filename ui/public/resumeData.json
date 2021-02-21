@@ -1,8 +1,8 @@
 {
   "main": {
     "name":"Morgan Radic",
-    "occupation":"Software Consultant",
-    "employer": "Pariveda Solutions",
+    "occupation":"Software Engineer",
+    "employer": "Capital One",
     "description":"I love creating <span>Scalable Backend Systems</span> and <span>working with AWS</span>.",
     "image":"morgan-bahamas-portrait-cropped.jpg",
     "bio":"I am a developer and architect with 2+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, most often utilizing a Serverless architecture.  Outside of my work you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
@@ -47,7 +47,7 @@
     "work":[
       {
         "company":"(Unnamed Fortune 500 Company)",
-        "title":"Backend Developer",
+        "title":"Consultant",
         "years":"September 2020 - Present",
         "description":"Our client was using Kafka to stream machine learning data to a plethora of applications.  I joined a team that was developing two Java Spring applications that would consume this data and communicate it with their customers via email and a RESTful API. On this team I was a Java developer and helped with some of the AWS architecture.",
         "techstack": [
@@ -60,6 +60,7 @@
       },
       {
         "company":"(Unnamed Non-Profit)",
+        "title":"Consultant",
         "years":"February 2020 - September 2020",
         "description":"We worked with our client to create a React SPA website that would consume data from a scalable API.  I proposed a Serverless architecture due to the fact that the traffic would be variable throughout the year and relatively light.  The speed of a Serverless API coupled with the low-costs further drove home this decision.  My role on the team was developing the API and architecting the system within AWS.",
         "techstack": [
@@ -71,6 +72,7 @@
       },
       {
         "company":"(Unnamed Fortune 100 Automotive Manufacturer)",
+        "title":"Consultant",
         "years":"January 2019 - February 2020",
         "description":"Our client had a large initiative to rewrite many outdated Java APIs to be entirely Serverless in order to cut costs.  I worked on a team to rewrite one of their large scale APIs that provided data for hundreds of dealership sites.  We also developed a corresponding Angular SPA website that interacted with the API and migrated their large MySQL database to DynamoDB in order for the database to fit our low-cost, highly available architecture. My role on the team was architecting the system in AWS and developing both the front end and the API.",
         "techstack": [
