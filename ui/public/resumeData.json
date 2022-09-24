@@ -1,18 +1,18 @@
 {
   "main": {
     "name":"Morgan Radic",
-    "occupation":"Software Engineer",
-    "employer": "Capital One",
+    "occupation":"Software Development Engineer",
+    "employer": "Amazon Web Services",
     "description":"I love creating <span>Scalable Backend Systems</span> and <span>working with AWS</span>.",
     "image":"morgan-bahamas-portrait-cropped.jpg",
-    "bio":"I am a developer and architect with 2+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, most often utilizing a Serverless architecture.  Outside of my work you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
+    "bio":"I am a developer and architect with 4+ years of experience implementing backend systems within AWS.  Through my work I have helped multiple organizations create scalable APIs, most often utilizing a Serverless architecture.  Outside of my work you can find me either cooking, backpacking, hiking, golfing, or playing volleyball.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "radic44morgan@gmail.com",
     "phone": "717-654-5275",
     "address":{
-      "city":"Arlington",
-      "state":"VA",
-      "zip": "22201"
+      "city":"Washington",
+      "state":"DC",
+      "zip": "20005"
     },
     "website": "http://www.morganradic.cloud",
     "resumedownload":"http://morganradic.cloud",
@@ -46,9 +46,31 @@
     ],
     "work":[
       {
+        "company":"Amazon Web Services",
+        "title":"Software Development Engineer",
+        "years":"April 2022 - Present",
+        "description":"Working on a full stack project using a React frontend, Java API, and CDK for the IaC",
+        "techstack": [
+          "React",
+          "AWS CDK",
+          "Java"
+        ]
+      },
+      {
+        "company":"Capital One",
+        "title":"Software Engineer",
+        "years":"January 2021 - March 2022",
+        "description":"Worked within a team that managed multiple APIs using ECS and Sprint Boot.",
+        "techstack": [
+          "Spring Boot",
+          "ECS",
+          "Docker"
+        ]
+      },
+      {
         "company":"(Unnamed Fortune 500 Company)",
         "title":"Consultant",
-        "years":"September 2020 - Present",
+        "years":"September 2020 - January 2021",
         "description":"Our client was using Kafka to stream machine learning data to a plethora of applications.  I joined a team that was developing two Java Spring applications that would consume this data and communicate it with their customers via email and a RESTful API. On this team I was a Java developer and helped with some of the AWS architecture.",
         "techstack": [
           "Spring Boot",
@@ -86,28 +108,28 @@
     ],
     "skills":[
       {
-        "name":"Serverless Framework",
-        "level":"85%"
-      },
-      {
         "name":"TypeScript",
         "level":"70%"
-      },
-      {
-        "name":"Cloudformation",
-        "level":"60%"
       },
       {
         "name":"Java",
         "level":"60%"
       },
       {
-        "name":"Terrafrom",
-        "level":"50%"
+        "name":"AWS CDK",
+        "level":"60%"
+      },
+      {
+        "name":"Serverless Framework",
+        "level":"55%"
       },
       {
         "name":"ReactJs",
-        "level":"40%"
+        "level":"50%"
+      },
+      {
+        "name":"Python",
+        "level":"50%"
       },
       {
         "name":"Angular",
